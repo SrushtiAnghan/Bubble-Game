@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dekstop.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <title>Dekstop</title>
+</head>
+
+<body>
+    <div class="main_part">
+        <div class="Dekstop">
+            <div>
+                <h3 class="History_phe">History</h3>
+            </div>
+            <div>
+                <div class="line"></div>
+            </div>
+            <div>
+                <p class="empty_phe" id="text">History is empty!</p>
+            </div>
+            <div class="scroall">
+                <div class="updateHistory"></div>
+            </div>
+        </div>
+        <div>
+            <div class="Dekstop_02">
+                <div class="circle" id="circle1"></div>
+                <div class="circle" id="circle2"></div>
+                <div class="circle" id="circle3"></div>
+            </div>
+            <div class="Dekstop_phe">
+                <p id="colorName1"></p>
+                <p id="colorName2"></p>
+                <p id="colorName3"></p>
+            </div>
+
+            <div class="Dekstop_button">
+                <button class="Previous_button" id="prevBtn" onclick="prev()">Previous</button>
+                <button class="Next_button" id="nextBtn" onclick="next()">Next</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Dekstop.js"></script>
+</html>

@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    width: 1440;
+
+}
+
+.main_part {
+    display: flex;
+    border: 1px solid black;
+    margin: auto;
+    width: fit-content;
+    padding: 50px;
+    text-align: center;
+    gap: 320px;
+    margin-top: 150px;
+}
+
+.History_phe {
+    width: 102px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.line {
+    width: 300px;
+    height: 1px;
+    background: #B7B7B7;
+    border-radius: 50px;
+    margin-bottom: 35px;
+}
+
+.empty_phe {
+    width: 128px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.Dekstop_02 {
+    display: flex;
+    gap: 80px;
+    margin-top: 150px;
+}
+
+.Dekstop_phe {
+    display: flex;
+    gap: 143px;
+    margin-bottom: 150px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    border: 1px solid #000;
+}
+
+.Previous_button {
+    width: 180px;
+    height: 61px;
+    color: black;
+    border-radius: 50px;
+}
+
+.Next_button {
+    width: 180px;
+    height: 61px;
+    background: #000000;
+    border-radius: 50px;
+    color: white;
+}
+
+.History_01 {
+    display: flex;
+    gap: 35px;
+    margin-top: 150px;
+    height: 51px;
+    width: 231px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 90px;
+}
+
+.back {
+    background-color: lightgrey;
+
+}
+
+/* .History_01:hover {
+    background-color:lightgrey;
+  } */
+
+.History {
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    border: 1px solid #000;
+}
+
+.history_container {
+    width: 300px;
+}
+
+.updateHistory {
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 10px;
+    height: fit-content;
+    max-height: 250px;
+}
